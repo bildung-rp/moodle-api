@@ -93,7 +93,7 @@ Die weiteren Pakete vorbereiten mit `npm run` für die jeweilige Umgebung, zur A
 
 ### Step 3.
 Application Key erzeugen
-```shell
+```shell 
 php artisan key:generate
 ```
 
