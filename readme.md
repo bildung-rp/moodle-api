@@ -56,7 +56,7 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
-Als nächstes wechseln wir kurz in den Ordner "config" und passen dort die Datei "instance.php" an.
+Weiter unten in der .env Datei, sind noch Moodle spezifische Einstellungen, die ebenfalls angepasst werden sollten.
 Die dortigen Einstellungen sind wichtig, damit die Moodle Instanzen auch richtig angelegt werden können.
 
 ### Step 2. 
