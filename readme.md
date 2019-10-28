@@ -94,7 +94,7 @@ Die weiteren Pakete vorbereiten mit `npm run` für die jeweilige Umgebung, zur A
 ### Step 3.
 Application Key erzeugen
 ```shell
-php artisan key:generate
+c
 ```
 
 Datenbanktabellen erzeugen
