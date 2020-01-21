@@ -112,7 +112,7 @@ class InstancesApiController extends Controller {
             $hostname = env("APP_URL");
 
             $url_webservice = $hostname . "/" . $short . "/webservice/rest/simpleserver.php";
-            $webservice_token = $token;
+            //$webservice_token = $token;
             $realpath = env("MOODLE_DIR") . "/" . $short;
             $realdatapath = env("MOODL_DATA_DIR") . "/" . $short;
 
@@ -871,7 +871,8 @@ class InstancesApiController extends Controller {
 
         $select_qry = ['CN', 'rpIdmOrgShortName', 'shortname'];
         $where = ["CN", "!=", ''];
-        $instanzen = DB::table($storage_table)->select($select_qry)->where('CN', '!=', '')->get();
+        //$instanzen = DB::table($storage_table)->select($select_qry)->where($where)->get();
+        $instanzen = DB::table($storage_table)->select($select_qry)->whereNotNull('CN')->get();
 
         $ext_infos = [];
 
