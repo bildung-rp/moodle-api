@@ -6,6 +6,7 @@
 /storage/api-docs
 /storage/*
 /vendor
+composer.lock
 
 .env.*.php
 .env.php
