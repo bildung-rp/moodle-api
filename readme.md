@@ -1,5 +1,7 @@
 # Einrichtung der Moodle-API mit Laravel
 
+Version: 3.0 (21-01-2020)
+
 ***Quelle:*** 
 https://github.com/bildung-rp/moodle-api
 
@@ -127,3 +129,11 @@ http://localhost:8000/api/documentation
 **username:** moodle-admin@pl.rlp.de
 
 **password:** password
+
+
+### Bekannte Probleme/Fehler
+Informationen aus der .env werden nicht geladen.
+
+```shell
+php artisan config:clear
+```
