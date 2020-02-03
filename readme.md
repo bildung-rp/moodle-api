@@ -33,7 +33,7 @@ Außerdem ist es für die API wichtig, einen speziellen Nutzer anzulegen, der we
 **Beispiel:**
 
 ```mysql
-CREATE DATABASE moodle-api;
+CREATE DATABASE moodleapi;
 ```
 
 ```mysql
