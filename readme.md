@@ -33,7 +33,7 @@ Außerdem ist es für die API wichtig, einen speziellen Nutzer anzulegen, der we
 **Beispiel:**
 
 ```mysql
-CREATE DATABASE moodle-api;
+CREATE DATABASE moodleapi;
 ```
 
 ```mysql
@@ -53,7 +53,7 @@ Wir kopieren die .env.example in .env und ändern die Einstellungen, die für un
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=moodle-api
+DB_DATABASE=moodleapi
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
