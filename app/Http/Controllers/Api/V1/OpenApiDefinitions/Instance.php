@@ -54,7 +54,7 @@
 *      @OA\Response(
 *          response=201,
 *          description="successful operation",
-*          @OA\JsonContent(ref="#/components/schemas/Instance")   
+*          @OA\Schema(ref="#/components/schemas/Instances"),
 *       ),
 *       @OA\Response(response=409, description="Bad request"),
 *      

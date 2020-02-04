@@ -1,6 +1,6 @@
 # Einrichtung der Moodle-API mit Laravel
 
-Version: 3.0 (21-01-2020)
+Version: 3.0.1 (22-01-2020)
 
 ***Quelle:*** 
 https://github.com/bildung-rp/moodle-api
@@ -8,7 +8,7 @@ https://github.com/bildung-rp/moodle-api
 Die Dateien in ein beliebiges Verzeichnis entpacken/kopieren.
 
 ## Voraussetzungen
-Betriebssystem (empfohlen): Linux (Debian)
+Betriebssystem (**empfohlen**): Linux (Debian 10 oder höher)
 
 Bitte prüfen Sie ob folgende Pakete installiert sind.
 Ansonsten mit "root" Rechten, diese nachträglich installieren.
