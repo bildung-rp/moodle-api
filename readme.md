@@ -16,6 +16,7 @@ Ansonsten mit "root" Rechten, diese nachträglich installieren.
 **Pakete**
 
 - mariadb-server
+- curl
 - composer
 - npm
 - php7.3
@@ -136,4 +137,15 @@ Informationen aus der .env werden nicht geladen.
 
 ```shell
 php artisan config:clear
+```
+
+### Laravel mit einer festen IP einrichten 
+In der Datei setup.php und .env die URL anpassen
+```app/Http/Controllers/Api/V1/OpenApiDefinitions/Setup.php```
+
+```.env```
+
+Artisan mit einer festen IP starten
+```
+php artisan serve --host=<IP>
 ```
