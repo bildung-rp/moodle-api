@@ -802,7 +802,7 @@ class InstancesApiController extends Controller
 
         $template_dir = env('TEMPLATE_DIR');
         if(is_dir($template_dir.'/'.$short)) {
-            die("Template Instanzen sind nicht löschbar!")
+            die('Template Instanzen sind nicht löschbar!');
         }
 
         $moodlepath = $moodledir . '/' . $short;
