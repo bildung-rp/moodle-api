@@ -141,9 +141,14 @@ php artisan config:clear
 
 ### Laravel mit einer festen IP einrichten 
 In der Datei setup.php und .env die URL anpassen
-```app/Http/Controllers/Api/V1/OpenApiDefinitions/Setup.php```
 
-```.env```
+```
+app/Http/Controllers/Api/V1/OpenApiDefinitions/Setup.php
+```
+
+```
+.env
+```
 
 Artisan mit einer festen IP starten
 ```
